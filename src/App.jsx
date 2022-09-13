@@ -17,11 +17,8 @@ const App = () => {
       }></Route>
     </Routes>
     </BrowserRouter>
-    {/* <div>
-      <Giphy />
-    </div> */}
     </>
-    
+
   );
 };
 
