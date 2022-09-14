@@ -14,11 +14,7 @@ const Giphy = () => {
   const [isError, setIsError] = useState(false);
 
 
-  useEffect(() => {
-    axios.get('http://localhost:3003/admin/')
-        .then(res => (res.data));
-}, []);
-
+ 
   useEffect(() => {
     const fetchData = async () => {
       setIsError(false);
