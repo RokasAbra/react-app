@@ -11,7 +11,7 @@ const App = () => {
   return (
     <><BrowserRouter>
     <Routes>
-      <Route path="/react-app"
+      <Route path="/"
       element={
         <Giphy></Giphy>
       }></Route>

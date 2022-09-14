@@ -137,7 +137,7 @@ const Giphy = () => {
                 <NavLink
                   className="nav-link active"
                   aria-current="page"
-                  to='/react-app'
+                  to='/'
                 >
                   Home
                 </NavLink>
